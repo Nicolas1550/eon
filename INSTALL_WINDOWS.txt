@@ -1,0 +1,22 @@
+EON V7 - URBAN RECONSTRUCTION
+==============================
+
+1. Extraer el ZIP en una carpeta nueva.
+2. Copiar el archivo .env.local de EON V6 a la raiz de EON V7 (no compartirlo).
+3. Abrir PowerShell en la carpeta donde esta package.json.
+
+npm.cmd install
+npm.cmd run test
+npm.cmd run typecheck
+npm.cmd run build
+npm.cmd run dev
+
+4. Abrir http://localhost:3000
+5. Activar Traffic simulation. Probar STREET / DAY / CLEAR.
+6. Probar ORBIT y CITY VAULT.
+7. NO ejecutar SQL: la base de Neon se mantiene intacta.
+
+Los cinco GLB de vehiculos estan dentro de public/assets/vehicles.
+Son originales de EON, NO descargas de modelos externos.
+
+Si hay errores de compilacion, compartir el texto del error sin secretos.
