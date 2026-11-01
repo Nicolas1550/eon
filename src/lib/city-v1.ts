@@ -19,13 +19,16 @@ export type Building = {
   energy: number;
 };
 export type Park = { x: number; z: number; size: number };
+export type Plaza = { x: number; z: number; size: number; variant: number };
 export type Tree = { x: number; z: number; scale: number; tone: number };
 export type CityData = {
   buildings: Building[];
   parks: Park[];
+  plazas?: Plaza[];
   trees: Tree[];
   size: number;
   grid: number;
+  cell?: number;
   population: number;
   energy: number;
   greenSpace: number;
