@@ -1,5 +1,5 @@
-import EonApp from '@/components/EonApp';
+import GenesisWorldApp from '@/components/GenesisWorldApp';
 
 export default function Home() {
-  return <EonApp />;
+  return <GenesisWorldApp />;
 }

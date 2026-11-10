@@ -1,22 +1,22 @@
-EON V7 - URBAN RECONSTRUCTION
-==============================
-
+GENESIS V1 — AWAKENING | BASADO EN EON V7
+=======================================
 1. Extraer el ZIP en una carpeta nueva.
-2. Copiar el archivo .env.local de EON V6 a la raiz de EON V7 (no compartirlo).
-3. Abrir PowerShell en la carpeta donde esta package.json.
+2. Abrir PowerShell en la carpeta con package.json.
+3. Instalar dependencias y ejecutar:
 
 npm.cmd install
-npm.cmd run test
-npm.cmd run typecheck
-npm.cmd run build
 npm.cmd run dev
 
 4. Abrir http://localhost:3000
-5. Activar Traffic simulation. Probar STREET / DAY / CLEAR.
-6. Probar ORBIT y CITY VAULT.
-7. NO ejecutar SQL: la base de Neon se mantiene intacta.
+5. Presionar AWAKEN WORLD, luego el icono de la brújula para enfocar el núcleo.
+6. Cambiar ECO / HIGH / ULTRA y observar el FPS. ULTRA no activa CUDA; utiliza WebGL.
+7. Para login y guardar ciudades, copiar TU .env.local desde EON. No publicar secretos.
+8. No volver a ejecutar SQL: usamos exactamente el esquema de EON.
 
-Los cinco GLB de vehiculos estan dentro de public/assets/vehicles.
-Son originales de EON, NO descargas de modelos externos.
+Para pruebas locales:
 
-Si hay errores de compilacion, compartir el texto del error sin secretos.
+npm.cmd run test
+npm.cmd run typecheck
+npm.cmd run build
+
+Para generar un render con tu RTX 3090 en Blender, leer README.md.

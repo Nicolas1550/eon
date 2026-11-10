@@ -1,0 +1,1601 @@
+{
+  "biome": "sunfall-dunes",
+  "instances": [
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -85.4965,
+        53.6504,
+        16.4766
+      ],
+      "target_height": 3.8887,
+      "rotation_z": 0.501666
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -136.8403,
+        -131.8244,
+        23.427
+      ],
+      "target_height": 3.4552,
+      "rotation_z": 1.521066
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        55.0182,
+        94.5222,
+        18.2438
+      ],
+      "target_height": 2.4244,
+      "rotation_z": -1.470904
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        68.292,
+        -24.0413,
+        12.0964
+      ],
+      "target_height": 3.7207,
+      "rotation_z": 1.726523
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -25.5693,
+        110.1611,
+        18.8768
+      ],
+      "target_height": 2.4961,
+      "rotation_z": 1.47829
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -77.7422,
+        -54.7234,
+        14.5194
+      ],
+      "target_height": 2.7008,
+      "rotation_z": -0.430013
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        72.2391,
+        -97.5737,
+        18.4028
+      ],
+      "target_height": 1.1993,
+      "rotation_z": -1.482495
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -94.7407,
+        113.0201,
+        24.2145
+      ],
+      "target_height": 2.4696,
+      "rotation_z": 2.169605
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -86.3967,
+        -87.2584,
+        16.5673
+      ],
+      "target_height": 2.2576,
+      "rotation_z": -0.527249
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        63.5408,
+        -49.7941,
+        12.6791
+      ],
+      "target_height": 3.2794,
+      "rotation_z": -0.840763
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        138.9063,
+        -97.8116,
+        22.2762
+      ],
+      "target_height": 1.8006,
+      "rotation_z": 2.379231
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        118.9955,
+        63.186,
+        20.1426
+      ],
+      "target_height": 3.3278,
+      "rotation_z": 0.456647
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -108.6515,
+        12.5739,
+        16.1608
+      ],
+      "target_height": 3.3002,
+      "rotation_z": 1.923786
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        83.898,
+        46.1239,
+        16.2225
+      ],
+      "target_height": 1.4113,
+      "rotation_z": 0.121635
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -46.433,
+        4.1255,
+        8.0306
+      ],
+      "target_height": 3.3446,
+      "rotation_z": -0.76326
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -62.2323,
+        64.7079,
+        12.286
+      ],
+      "target_height": 3.585,
+      "rotation_z": 0.140568
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -108.7077,
+        70.774,
+        21.8186
+      ],
+      "target_height": 3.1331,
+      "rotation_z": -0.153571
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -109.3424,
+        86.9876,
+        19.5664
+      ],
+      "target_height": 3.409,
+      "rotation_z": 0.334485
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -120.7881,
+        123.9076,
+        29.4861
+      ],
+      "target_height": 3.2109,
+      "rotation_z": -2.708428
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        88.8061,
+        -48.0763,
+        9.5591
+      ],
+      "target_height": 2.1527,
+      "rotation_z": -1.735762
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -41.0137,
+        90.3816,
+        12.5779
+      ],
+      "target_height": 3.8888,
+      "rotation_z": -0.926892
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        67.4067,
+        95.4962,
+        17.2714
+      ],
+      "target_height": 2.9763,
+      "rotation_z": -1.112762
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -117.1615,
+        55.0003,
+        17.1195
+      ],
+      "target_height": 1.8105,
+      "rotation_z": -3.017766
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        133.6096,
+        40.0145,
+        19.678
+      ],
+      "target_height": 3.1521,
+      "rotation_z": 1.005029
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -142.9723,
+        36.4414,
+        22.4223
+      ],
+      "target_height": 2.4168,
+      "rotation_z": 1.830466
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        107.502,
+        -50.3797,
+        13.6664
+      ],
+      "target_height": 1.4953,
+      "rotation_z": 3.122467
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -126.6971,
+        55.5049,
+        17.9781
+      ],
+      "target_height": 1.2734,
+      "rotation_z": 0.929099
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        122.3178,
+        -80.0046,
+        10.0284
+      ],
+      "target_height": 3.1556,
+      "rotation_z": 1.538734
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -84.6536,
+        11.6194,
+        14.1534
+      ],
+      "target_height": 1.9414,
+      "rotation_z": 0.75666
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        120.4267,
+        -74.9503,
+        8.2751
+      ],
+      "target_height": 3.1099,
+      "rotation_z": 1.961691
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -116.9914,
+        -98.8815,
+        23.095
+      ],
+      "target_height": 1.8058,
+      "rotation_z": -2.120849
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        105.9165,
+        23.675,
+        20.0723
+      ],
+      "target_height": 3.4958,
+      "rotation_z": 2.527541
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -5.5952,
+        26.6455,
+        7.4432
+      ],
+      "target_height": 2.609,
+      "rotation_z": -1.476555
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        75.1763,
+        -60.0134,
+        14.1947
+      ],
+      "target_height": 1.1636,
+      "rotation_z": 0.223614
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        115.3172,
+        54.1303,
+        17.4461
+      ],
+      "target_height": 3.2246,
+      "rotation_z": 1.402208
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -119.0512,
+        82.1212,
+        23.4393
+      ],
+      "target_height": 2.9865,
+      "rotation_z": 0.312417
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -84.0738,
+        -30.2897,
+        7.2493
+      ],
+      "target_height": 1.0447,
+      "rotation_z": 1.112838
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -128.5086,
+        107.2104,
+        28.0039
+      ],
+      "target_height": 1.8776,
+      "rotation_z": 2.014714
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        85.7084,
+        -59.0668,
+        10.6605
+      ],
+      "target_height": 1.2965,
+      "rotation_z": -3.069707
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -88.2993,
+        67.0337,
+        15.53
+      ],
+      "target_height": 3.1216,
+      "rotation_z": -2.402877
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        107.3966,
+        30.2475,
+        16.7673
+      ],
+      "target_height": 3.1196,
+      "rotation_z": -2.287885
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        64.1423,
+        -111.5212,
+        21.531
+      ],
+      "target_height": 2.8993,
+      "rotation_z": -0.826147
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        49.1291,
+        74.4948,
+        16.0728
+      ],
+      "target_height": 1.4949,
+      "rotation_z": 1.01078
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        73.4145,
+        50.5211,
+        12.9612
+      ],
+      "target_height": 1.7211,
+      "rotation_z": 3.119195
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -116.8704,
+        112.6102,
+        26.3942
+      ],
+      "target_height": 2.2884,
+      "rotation_z": 2.072065
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -90.3387,
+        -95.2058,
+        17.8795
+      ],
+      "target_height": 1.111,
+      "rotation_z": 0.227109
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -143.8236,
+        29.2876,
+        22.5147
+      ],
+      "target_height": 2.9445,
+      "rotation_z": 1.674621
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        74.7469,
+        -71.4422,
+        14.1205
+      ],
+      "target_height": 3.2871,
+      "rotation_z": -2.6606
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -47.9869,
+        30.6562,
+        10.1607
+      ],
+      "target_height": 2.2139,
+      "rotation_z": 0.430914
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        119.9436,
+        87.2011,
+        24.3722
+      ],
+      "target_height": 3.4217,
+      "rotation_z": -1.215193
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -108.0334,
+        135.7051,
+        27.9393
+      ],
+      "target_height": 2.2811,
+      "rotation_z": -1.358765
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        103.6455,
+        -63.3159,
+        12.9503
+      ],
+      "target_height": 2.2442,
+      "rotation_z": 0.78369
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -136.3725,
+        107.6087,
+        29.6287
+      ],
+      "target_height": 2.9079,
+      "rotation_z": -2.605963
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        63.1594,
+        -76.0338,
+        13.4491
+      ],
+      "target_height": 2.5462,
+      "rotation_z": 2.487259
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        126.0178,
+        88.4965,
+        21.4504
+      ],
+      "target_height": 0.9594,
+      "rotation_z": 2.80753
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -86.0644,
+        77.1735,
+        14.25
+      ],
+      "target_height": 2.9967,
+      "rotation_z": 3.050182
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        114.7664,
+        31.3656,
+        14.0681
+      ],
+      "target_height": 1.1718,
+      "rotation_z": 0.056935
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -105.8249,
+        69.4236,
+        19.0158
+      ],
+      "target_height": 2.0357,
+      "rotation_z": 0.540272
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        101.0056,
+        55.9929,
+        19.5455
+      ],
+      "target_height": 1.6742,
+      "rotation_z": 0.771504
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -132.4013,
+        -61.5482,
+        17.7978
+      ],
+      "target_height": 3.4765,
+      "rotation_z": 0.076729
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        90.192,
+        -90.6684,
+        15.3351
+      ],
+      "target_height": 1.6764,
+      "rotation_z": 1.031634
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        127.2955,
+        4.0532,
+        17.1365
+      ],
+      "target_height": 3.892,
+      "rotation_z": -2.764156
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        70.9659,
+        55.3558,
+        13.3951
+      ],
+      "target_height": 2.9557,
+      "rotation_z": 0.383969
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -104.2993,
+        -52.3224,
+        17.9499
+      ],
+      "target_height": 3.24,
+      "rotation_z": -0.836729
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        86.7788,
+        -79.9424,
+        13.9673
+      ],
+      "target_height": 1.1805,
+      "rotation_z": 1.705208
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        88.7196,
+        42.054,
+        18.9706
+      ],
+      "target_height": 1.7508,
+      "rotation_z": 0.002772
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        104.2894,
+        45.202,
+        17.3653
+      ],
+      "target_height": 3.7885,
+      "rotation_z": 1.776563
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -96.9814,
+        -63.4688,
+        17.3996
+      ],
+      "target_height": 2.5848,
+      "rotation_z": 2.441041
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -114.9604,
+        -74.2503,
+        17.9509
+      ],
+      "target_height": 3.7731,
+      "rotation_z": -1.87445
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -87.7218,
+        -114.2237,
+        23.6554
+      ],
+      "target_height": 1.8179,
+      "rotation_z": -1.058927
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -126.1431,
+        5.0383,
+        14.7507
+      ],
+      "target_height": 3.0365,
+      "rotation_z": 1.663563
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -16.5222,
+        50.8282,
+        13.8634
+      ],
+      "target_height": 2.9124,
+      "rotation_z": 1.00168
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -132.5341,
+        114.5984,
+        29.7076
+      ],
+      "target_height": 3.3471,
+      "rotation_z": -2.391701
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        101.9866,
+        79.946,
+        19.4839
+      ],
+      "target_height": 3.2598,
+      "rotation_z": -0.143422
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -112.4026,
+        -65.6106,
+        15.628
+      ],
+      "target_height": 0.9636,
+      "rotation_z": 2.031154
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        92.8206,
+        39.961,
+        21.1524
+      ],
+      "target_height": 2.0667,
+      "rotation_z": -1.947891
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -77.2328,
+        -77.6079,
+        17.9662
+      ],
+      "target_height": 0.9283,
+      "rotation_z": -1.801923
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        131.3974,
+        65.2435,
+        17.8646
+      ],
+      "target_height": 1.436,
+      "rotation_z": 2.301455
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -35.9055,
+        81.3142,
+        10.1473
+      ],
+      "target_height": 3.6192,
+      "rotation_z": -1.218621
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -99.6607,
+        132.7073,
+        28.0682
+      ],
+      "target_height": 1.9942,
+      "rotation_z": -1.998331
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -71.2295,
+        -29.687,
+        13.1373
+      ],
+      "target_height": 2.4823,
+      "rotation_z": -0.743302
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -68.9333,
+        96.7382,
+        16.0522
+      ],
+      "target_height": 3.5697,
+      "rotation_z": -1.045085
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        135.1579,
+        58.0143,
+        17.1557
+      ],
+      "target_height": 3.7083,
+      "rotation_z": 0.895582
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -100.0574,
+        -42.7535,
+        16.2629
+      ],
+      "target_height": 2.7083,
+      "rotation_z": -0.244889
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        70.5083,
+        -71.4492,
+        13.2327
+      ],
+      "target_height": 2.4125,
+      "rotation_z": 2.798911
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -93.1069,
+        37.4804,
+        15.3663
+      ],
+      "target_height": 2.6201,
+      "rotation_z": 0.489276
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -121.0145,
+        45.5731,
+        16.2178
+      ],
+      "target_height": 1.1171,
+      "rotation_z": 0.696753
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -124.0153,
+        100.6308,
+        26.1554
+      ],
+      "target_height": 1.7746,
+      "rotation_z": -2.650598
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -109.7153,
+        68.6566,
+        22.5945
+      ],
+      "target_height": 0.9494,
+      "rotation_z": -0.518075
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -97.9558,
+        -90.8296,
+        21.5503
+      ],
+      "target_height": 3.1808,
+      "rotation_z": -1.445774
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -82.0115,
+        48.5427,
+        13.3827
+      ],
+      "target_height": 1.2514,
+      "rotation_z": -1.629758
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        107.6775,
+        -61.1157,
+        10.6403
+      ],
+      "target_height": 3.5517,
+      "rotation_z": -2.901201
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        105.2524,
+        -94.1744,
+        10.6055
+      ],
+      "target_height": 2.3062,
+      "rotation_z": -2.155455
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        108.5002,
+        -114.539,
+        19.0571
+      ],
+      "target_height": 3.06,
+      "rotation_z": -2.471358
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        105.3299,
+        -76.7834,
+        11.9312
+      ],
+      "target_height": 1.8031,
+      "rotation_z": 2.309986
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        90.406,
+        122.507,
+        21.8911
+      ],
+      "target_height": 3.4561,
+      "rotation_z": -1.348492
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -115.0861,
+        20.7352,
+        14.6052
+      ],
+      "target_height": 3.4594,
+      "rotation_z": -2.075344
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        75.7837,
+        28.0423,
+        11.6864
+      ],
+      "target_height": 3.1993,
+      "rotation_z": -2.721031
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -1.4701,
+        -99.4077,
+        13.8836
+      ],
+      "target_height": 1.9455,
+      "rotation_z": -1.569806
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        115.6367,
+        -96.9751,
+        15.6551
+      ],
+      "target_height": 1.0332,
+      "rotation_z": 2.337502
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -82.5908,
+        -16.1595,
+        8.1633
+      ],
+      "target_height": 3.227,
+      "rotation_z": -0.194673
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -79.3546,
+        -11.4718,
+        9.8617
+      ],
+      "target_height": 3.8773,
+      "rotation_z": 2.552602
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -89.5459,
+        -44.6058,
+        9.278
+      ],
+      "target_height": 1.4477,
+      "rotation_z": 2.505544
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -131.8864,
+        -39.6402,
+        13.3693
+      ],
+      "target_height": 3.1274,
+      "rotation_z": -1.450761
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -37.8265,
+        -73.9421,
+        17.0035
+      ],
+      "target_height": 0.9718,
+      "rotation_z": 1.711383
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        124.9978,
+        92.4401,
+        22.7227
+      ],
+      "target_height": 3.2768,
+      "rotation_z": -2.51696
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        85.3213,
+        36.2971,
+        17.0613
+      ],
+      "target_height": 1.3742,
+      "rotation_z": 1.162999
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        123.6366,
+        -107.118,
+        19.2791
+      ],
+      "target_height": 2.9598,
+      "rotation_z": -1.893973
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -66.7624,
+        -36.1871,
+        9.9664
+      ],
+      "target_height": 1.1824,
+      "rotation_z": -2.251986
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -100.1584,
+        11.7266,
+        10.7926
+      ],
+      "target_height": 1.4818,
+      "rotation_z": -0.612267
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        109.7358,
+        -27.8155,
+        16.914
+      ],
+      "target_height": 2.7178,
+      "rotation_z": 0.365087
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        86.861,
+        55.9949,
+        21.2555
+      ],
+      "target_height": 2.2806,
+      "rotation_z": -2.635545
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        66.8496,
+        58.7378,
+        13.3472
+      ],
+      "target_height": 3.0455,
+      "rotation_z": 2.953977
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        89.029,
+        -73.6212,
+        11.0679
+      ],
+      "target_height": 2.9429,
+      "rotation_z": 0.862562
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -54.5231,
+        -121.0767,
+        19.8727
+      ],
+      "target_height": 1.2228,
+      "rotation_z": 1.085293
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -46.7829,
+        -75.1039,
+        18.9582
+      ],
+      "target_height": 2.152,
+      "rotation_z": 0.140901
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        81.816,
+        15.9255,
+        10.1554
+      ],
+      "target_height": 2.8948,
+      "rotation_z": 0.669821
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -116.8385,
+        78.8977,
+        22.166
+      ],
+      "target_height": 0.9348,
+      "rotation_z": -1.130964
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -14.6791,
+        -87.1902,
+        8.5489
+      ],
+      "target_height": 1.7595,
+      "rotation_z": 2.684707
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -142.3549,
+        88.4925,
+        27.6432
+      ],
+      "target_height": 1.2967,
+      "rotation_z": -2.486325
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -135.737,
+        28.8991,
+        18.4818
+      ],
+      "target_height": 1.1914,
+      "rotation_z": -0.489406
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -36.5599,
+        -117.2238,
+        26.2968
+      ],
+      "target_height": 1.3962,
+      "rotation_z": -1.285878
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -75.7356,
+        42.8001,
+        11.0014
+      ],
+      "target_height": 2.2794,
+      "rotation_z": -2.170567
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        112.9862,
+        36.8649,
+        15.3318
+      ],
+      "target_height": 1.0373,
+      "rotation_z": -1.078113
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        117.024,
+        71.2326,
+        21.9669
+      ],
+      "target_height": 3.3243,
+      "rotation_z": -2.98653
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -86.2835,
+        -67.8376,
+        12.3184
+      ],
+      "target_height": 3.8632,
+      "rotation_z": -2.825205
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -103.001,
+        -64.1563,
+        19.3464
+      ],
+      "target_height": 2.3523,
+      "rotation_z": -0.19617
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -76.628,
+        -31.4893,
+        12.3848
+      ],
+      "target_height": 1.9842,
+      "rotation_z": -0.42904
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -87.3688,
+        57.9028,
+        18.9274
+      ],
+      "target_height": 3.7721,
+      "rotation_z": -0.762619
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        106.9926,
+        80.2899,
+        22.5055
+      ],
+      "target_height": 3.0564,
+      "rotation_z": -1.919598
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -91.0594,
+        50.4742,
+        21.1866
+      ],
+      "target_height": 2.1651,
+      "rotation_z": -0.375307
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        95.3645,
+        -63.2526,
+        9.7921
+      ],
+      "target_height": 2.8111,
+      "rotation_z": 0.33834
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        132.4193,
+        -114.9931,
+        24.4969
+      ],
+      "target_height": 3.4211,
+      "rotation_z": -0.051049
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -61.098,
+        116.0709,
+        15.3419
+      ],
+      "target_height": 2.7041,
+      "rotation_z": 2.619369
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        101.7548,
+        57.8226,
+        19.2809
+      ],
+      "target_height": 2.0397,
+      "rotation_z": 2.780591
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -129.5689,
+        68.5803,
+        24.0966
+      ],
+      "target_height": 2.0855,
+      "rotation_z": 2.495202
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -83.0527,
+        -33.8976,
+        7.3323
+      ],
+      "target_height": 2.5295,
+      "rotation_z": 0.611685
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        124.2672,
+        -48.006,
+        15.5898
+      ],
+      "target_height": 0.9211,
+      "rotation_z": -1.018928
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        86.4366,
+        64.7046,
+        21.7127
+      ],
+      "target_height": 2.0125,
+      "rotation_z": 3.066591
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -85.7093,
+        -41.2616,
+        8.0421
+      ],
+      "target_height": 3.0256,
+      "rotation_z": -2.963656
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -102.7855,
+        -82.3454,
+        18.7414
+      ],
+      "target_height": 2.6812,
+      "rotation_z": 2.773131
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        104.5822,
+        59.7983,
+        17.5857
+      ],
+      "target_height": 1.8313,
+      "rotation_z": -0.509345
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        82.4105,
+        -87.3335,
+        17.8423
+      ],
+      "target_height": 2.6254,
+      "rotation_z": -3.022215
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        86.1883,
+        -12.6359,
+        11.0428
+      ],
+      "target_height": 3.334,
+      "rotation_z": 1.751852
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        127.6959,
+        67.933,
+        18.5264
+      ],
+      "target_height": 1.3193,
+      "rotation_z": 2.343777
+    }
+  ],
+  "note": "Full fidelity uses source glTF files in assets/awakening-valley; web renderer should use GPU instancing."
+}

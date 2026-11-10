@@ -1,6 +1,6 @@
 {
-  "name": "eon-the-living-city",
-  "version": "7.0.0",
+  "name": "genesis-the-living-world",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",

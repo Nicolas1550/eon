@@ -1,0 +1,47 @@
+[
+  {
+    "id": "awakening-valley",
+    "name": "Awakening Valley",
+    "model": "/assets/genesis/biomes/awakening-valley/scene.glb",
+    "preview": "/assets/genesis/biomes/awakening-valley/preview.webp",
+    "scatter": null,
+    "sizeMB": 127.1,
+    "notes": "Web GLB contains ground and authored structures; additional scatter locations are optional input for future instancing."
+  },
+  {
+    "id": "frostbound-peaks",
+    "name": "Frostbound Peaks",
+    "model": "/assets/genesis/biomes/frostbound-peaks/scene.glb",
+    "preview": "/assets/genesis/biomes/frostbound-peaks/preview.webp",
+    "scatter": "/assets/genesis/biomes/frostbound-peaks/scatter.json",
+    "sizeMB": 15.46,
+    "notes": "Web GLB contains ground and authored structures; additional scatter locations are optional input for future instancing."
+  },
+  {
+    "id": "ember-wastes",
+    "name": "Ember Wastes",
+    "model": "/assets/genesis/biomes/ember-wastes/scene.glb",
+    "preview": "/assets/genesis/biomes/ember-wastes/preview.webp",
+    "scatter": "/assets/genesis/biomes/ember-wastes/scatter.json",
+    "sizeMB": 13.75,
+    "notes": "Web GLB contains ground and authored structures; additional scatter locations are optional input for future instancing."
+  },
+  {
+    "id": "astral-marsh",
+    "name": "Astral Marsh",
+    "model": "/assets/genesis/biomes/astral-marsh/scene.glb",
+    "preview": "/assets/genesis/biomes/astral-marsh/preview.webp",
+    "scatter": "/assets/genesis/biomes/astral-marsh/scatter.json",
+    "sizeMB": 120.29,
+    "notes": "Web GLB contains ground and authored structures; additional scatter locations are optional input for future instancing."
+  },
+  {
+    "id": "sunfall-dunes",
+    "name": "Sunfall Dunes",
+    "model": "/assets/genesis/biomes/sunfall-dunes/scene.glb",
+    "preview": "/assets/genesis/biomes/sunfall-dunes/preview.webp",
+    "scatter": "/assets/genesis/biomes/sunfall-dunes/scatter.json",
+    "sizeMB": 14.5,
+    "notes": "Web GLB contains ground and authored structures; additional scatter locations are optional input for future instancing."
+  }
+]

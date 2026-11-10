@@ -58,8 +58,8 @@ function SpeciesBatch({
     if (!highBark.current || !highLeaves.current || !lowBark.current || !lowLeaves.current) return;
     let near = 0;
     let far = 0;
-    const maxNear = quality === 'cinematic' ? 120 : 60;
-    const maxDistanceSq = (quality === 'cinematic' ? 145 : 105) ** 2;
+    const maxNear = quality === 'ultra' ? 220 : quality === 'cinematic' ? 120 : 60;
+    const maxDistanceSq = (quality === 'ultra' ? 215 : quality === 'cinematic' ? 145 : 105) ** 2;
     const nearB = highBark.current;
     const nearF = highLeaves.current;
     const farB = lowBark.current;
@@ -105,7 +105,7 @@ function SpeciesBatch({
   if (count === 0) return null;
   return <group>
     <instancedMesh ref={highBark} args={[detail.bark.geometry, detail.bark.material, count]} castShadow frustumCulled={false}/>
-    <instancedMesh ref={highLeaves} args={[detail.foliage.geometry, detail.foliage.material, count]} castShadow={quality === 'cinematic'} frustumCulled={false}/>
+    <instancedMesh ref={highLeaves} args={[detail.foliage.geometry, detail.foliage.material, count]} castShadow={quality !== 'balanced'} frustumCulled={false}/>
     <instancedMesh ref={lowBark} args={[distance.bark.geometry, distance.bark.material, count]} frustumCulled={false}/>
     <instancedMesh ref={lowLeaves} args={[distance.foliage.geometry, distance.foliage.material, count]} frustumCulled={false}/>
   </group>;

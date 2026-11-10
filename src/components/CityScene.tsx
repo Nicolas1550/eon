@@ -11,6 +11,8 @@ import PedestrianLife from './PedestrianLife';
 import TerrainWorld from './TerrainWorld';
 import VehicleTraffic from './VehicleTraffic';
 import TrafficSignals from './TrafficSignals';
+import GenesisCore, { getGenesisCoreLocation } from './GenesisCore';
+import WorldPerformance from './WorldPerformance';
 
 export type SceneProps = {
   city: CityData;
@@ -24,6 +26,9 @@ export type SceneProps = {
   selected: Building | null;
   onSelect: (building: Building | null) => void;
   onReady?: () => void;
+  awakened: boolean;
+  coreFocus: number;
+  onFps?: (fps: number) => void;
 };
 
 type CityWorldProps = SceneProps & { night: number };
@@ -796,8 +801,8 @@ function Atmosphere({ time, weather, quality, night, city }: CityWorldProps) {
       position={[-130, 190, -100]}
       intensity={0.18 + isDay * 2.75}
       color={isDay > 0.55 ? '#fff3dd' : '#f8b785'}
-      castShadow={quality === 'cinematic'}
-      shadow-mapSize={[2048, 2048]}
+      castShadow={quality !== 'balanced'}
+      shadow-mapSize={quality === 'ultra' ? [4096, 4096] : [2048, 2048]}
       shadow-camera-left={-Math.min(city.size * 0.6, 280)}
       shadow-camera-right={Math.min(city.size * 0.6, 280)}
       shadow-camera-top={Math.min(city.size * 0.6, 280)}
@@ -810,8 +815,8 @@ function Atmosphere({ time, weather, quality, night, city }: CityWorldProps) {
   </>;
 }
 
-function CameraRig({ city, onReady, cameraMode, resetCamera }: {
-  city: CityData; onReady?: () => void; cameraMode: CameraMode; resetCamera: number;
+function CameraRig({ city, onReady, cameraMode, resetCamera, coreFocus }: {
+  city: CityData; onReady?: () => void; cameraMode: CameraMode; resetCamera: number; coreFocus: number;
 }) {
   const controls = useRef<ComponentRef<typeof OrbitControls>>(null);
   const keys = useRef<Set<string>>(new Set());
@@ -833,6 +838,13 @@ function CameraRig({ city, onReady, cameraMode, resetCamera }: {
     }
     target.update();
   }, [cameraMode, resetCamera, city.size, camera]);
+  useEffect(() => {
+    if (coreFocus <= 0 || !controls.current) return;
+    const [x, y, z] = getGenesisCoreLocation(city);
+    camera.position.set(x + 42, y + 25, z + 52);
+    controls.current.target.set(x, y + 7, z);
+    controls.current.update();
+  }, [coreFocus, city, camera]);
   useEffect(() => {
     const down = (e: KeyboardEvent) => {
       if (e.target instanceof HTMLElement && e.target.closest('input, textarea, [contenteditable="true"]')) return;
@@ -901,6 +913,7 @@ function CityWorld(props: SceneProps) {
     {props.city.boulevard && <DiagonalBoulevard city={props.city}/>}
     <Buildings city={props.city} night={night} selected={props.selected} onSelect={props.onSelect}/>
     <ParkGround city={props.city}/>
+    <GenesisCore city={props.city} seed={props.seed} awakened={props.awakened} quality={props.quality}/>
     <Suspense fallback={null}><NaturalTrees city={props.city} quality={props.quality}/></Suspense>
     <PublicSpaces city={props.city}/>
     <StreetFurniture city={props.city} night={night}/>
@@ -912,7 +925,8 @@ function CityWorld(props: SceneProps) {
     <Rain city={props.city} active={props.weather === 'rain'}/>
     <RealityDressing city={props.city} seed={props.seed} night={night} quality={props.quality} traffic={props.traffic}/>
     <Suspense fallback={null}><PedestrianLife city={props.city} seed={props.seed}/></Suspense>
-    <CameraRig city={props.city} cameraMode={props.cameraMode} resetCamera={props.resetCamera} onReady={props.onReady}/>
+    <CameraRig city={props.city} cameraMode={props.cameraMode} resetCamera={props.resetCamera} coreFocus={props.coreFocus} onReady={props.onReady}/>
+    {props.onFps && <WorldPerformance onSample={props.onFps}/>}
   </group>;
 }
 
@@ -920,8 +934,8 @@ export default function CityScene(props: SceneProps) {
   return <Canvas
     key={`${props.seed}-${props.city.grid}-${props.city.cell ?? 22}`}
     className="eon-canvas"
-    dpr={props.quality === 'cinematic' ? [1, 1.8] : [1, 1.3]}
-    shadows={props.quality === 'cinematic'}
+    dpr={props.quality === 'ultra' ? 2 : props.quality === 'cinematic' ? 1.5 : 1}
+    shadows={props.quality !== 'balanced'}
     gl={{ antialias: true, alpha: false, powerPreference: 'high-performance' }}
     onCreated={({ gl }) => { gl.setClearColor('#121d2c'); gl.toneMapping = THREE.ACESFilmicToneMapping; gl.toneMappingExposure = 1.08; }}
     onPointerMissed={() => props.onSelect(null)}

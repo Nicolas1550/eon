@@ -1,0 +1,3131 @@
+{
+  "biome": "frostbound-peaks",
+  "instances": [
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -39.6804,
+        -12.48,
+        16.614
+      ],
+      "target_height": 3.1872,
+      "rotation_z": -1.545465
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        58.493,
+        69.6959,
+        25.7224
+      ],
+      "target_height": 1.9942,
+      "rotation_z": -1.513679
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -65.6926,
+        -18.6637,
+        22.8799
+      ],
+      "target_height": 2.7559,
+      "rotation_z": 0.56446
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        89.1162,
+        -55.2432,
+        32.7918
+      ],
+      "target_height": 2.2675,
+      "rotation_z": 0.590584
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        111.3665,
+        -55.3752,
+        40.1644
+      ],
+      "target_height": 1.5398,
+      "rotation_z": -3.121441
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        110.9644,
+        119.5997,
+        59.4518
+      ],
+      "target_height": 1.7555,
+      "rotation_z": 3.025295
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        30.8568,
+        32.353,
+        0.1266
+      ],
+      "target_height": 1.8428,
+      "rotation_z": 1.136065
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -41.4773,
+        116.077,
+        32.3947
+      ],
+      "target_height": 1.6394,
+      "rotation_z": 0.164739
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        4.8627,
+        -45.9057,
+        10.9926
+      ],
+      "target_height": 1.0972,
+      "rotation_z": 0.99587
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        24.3766,
+        113.9325,
+        27.6234
+      ],
+      "target_height": 1.5068,
+      "rotation_z": -0.959591
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        43.2756,
+        137.7951,
+        42.3447
+      ],
+      "target_height": 2.438,
+      "rotation_z": -2.443096
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -140.4161,
+        106.5258,
+        67.1065
+      ],
+      "target_height": 2.3676,
+      "rotation_z": 0.281764
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -106.9918,
+        71.066,
+        34.2946
+      ],
+      "target_height": 3.6122,
+      "rotation_z": -2.346291
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        87.5037,
+        -63.9936,
+        37.2206
+      ],
+      "target_height": 0.973,
+      "rotation_z": -0.899152
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -79.1753,
+        20.7067,
+        18.5168
+      ],
+      "target_height": 1.5659,
+      "rotation_z": 2.257109
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        111.2148,
+        12.6237,
+        30.6434
+      ],
+      "target_height": 1.7268,
+      "rotation_z": -2.349715
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        82.9001,
+        -110.679,
+        41.8863
+      ],
+      "target_height": 1.3254,
+      "rotation_z": 0.700994
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        101.0,
+        86.0978,
+        41.8486
+      ],
+      "target_height": 2.1729,
+      "rotation_z": -0.439154
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -56.6852,
+        61.8591,
+        14.8476
+      ],
+      "target_height": 2.0756,
+      "rotation_z": -1.833918
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -54.3711,
+        32.6669,
+        12.7812
+      ],
+      "target_height": 3.1169,
+      "rotation_z": 0.22219
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        0.2105,
+        121.4236,
+        25.0068
+      ],
+      "target_height": 1.7786,
+      "rotation_z": -2.239974
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -104.6762,
+        23.7703,
+        31.7721
+      ],
+      "target_height": 3.1051,
+      "rotation_z": 2.95292
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -39.3373,
+        78.8665,
+        16.8153
+      ],
+      "target_height": 1.7701,
+      "rotation_z": 1.192113
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        38.1246,
+        13.9283,
+        5.4002
+      ],
+      "target_height": 2.7859,
+      "rotation_z": 1.44168
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        117.0121,
+        112.3832,
+        71.3931
+      ],
+      "target_height": 2.6182,
+      "rotation_z": -0.410563
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        132.056,
+        -75.2272,
+        59.9869
+      ],
+      "target_height": 1.3541,
+      "rotation_z": 3.024591
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -106.5045,
+        89.8317,
+        40.4827
+      ],
+      "target_height": 1.8193,
+      "rotation_z": -1.450926
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -92.2778,
+        61.1043,
+        29.4038
+      ],
+      "target_height": 0.9159,
+      "rotation_z": -1.01704
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        22.7489,
+        100.9475,
+        20.0643
+      ],
+      "target_height": 3.2637,
+      "rotation_z": 2.929004
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -94.2175,
+        96.8191,
+        42.6007
+      ],
+      "target_height": 1.7705,
+      "rotation_z": -1.901113
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -86.4785,
+        -136.5986,
+        54.0885
+      ],
+      "target_height": 2.3785,
+      "rotation_z": -1.37783
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        74.056,
+        -135.4882,
+        50.825
+      ],
+      "target_height": 1.1441,
+      "rotation_z": 2.607615
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -6.2078,
+        127.1258,
+        26.8882
+      ],
+      "target_height": 2.8651,
+      "rotation_z": 1.995164
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -76.2107,
+        -37.0177,
+        23.3634
+      ],
+      "target_height": 1.7045,
+      "rotation_z": 2.65739
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        88.3999,
+        85.3086,
+        42.7217
+      ],
+      "target_height": 1.6215,
+      "rotation_z": 1.264494
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        15.9398,
+        85.8094,
+        4.9677
+      ],
+      "target_height": 3.5936,
+      "rotation_z": -0.83318
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        71.9588,
+        75.3102,
+        32.7818
+      ],
+      "target_height": 1.1175,
+      "rotation_z": -2.93377
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -103.0345,
+        -33.1145,
+        32.4582
+      ],
+      "target_height": 1.406,
+      "rotation_z": -1.398494
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -32.3585,
+        72.5358,
+        14.3734
+      ],
+      "target_height": 1.2146,
+      "rotation_z": -0.149475
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        35.2295,
+        66.1247,
+        8.6593
+      ],
+      "target_height": 3.0044,
+      "rotation_z": -2.381352
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -66.2817,
+        31.2538,
+        14.6311
+      ],
+      "target_height": 3.6461,
+      "rotation_z": 1.938344
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -89.9199,
+        47.4922,
+        22.9912
+      ],
+      "target_height": 0.9149,
+      "rotation_z": -1.083867
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -7.3916,
+        134.1042,
+        28.6902
+      ],
+      "target_height": 1.7793,
+      "rotation_z": -0.889336
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -38.1451,
+        133.1454,
+        41.149
+      ],
+      "target_height": 2.022,
+      "rotation_z": 0.327242
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        17.8959,
+        119.4927,
+        29.9272
+      ],
+      "target_height": 2.9629,
+      "rotation_z": -2.258412
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        117.5609,
+        -59.0989,
+        43.3864
+      ],
+      "target_height": 1.5489,
+      "rotation_z": -1.671297
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -47.5157,
+        72.5224,
+        16.055
+      ],
+      "target_height": 3.7093,
+      "rotation_z": 2.555181
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -80.6645,
+        79.6532,
+        26.9758
+      ],
+      "target_height": 1.2486,
+      "rotation_z": -1.709164
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        57.2862,
+        -74.7361,
+        24.4651
+      ],
+      "target_height": 3.0472,
+      "rotation_z": -1.091727
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        108.1598,
+        -31.2537,
+        37.0106
+      ],
+      "target_height": 2.2957,
+      "rotation_z": -1.049364
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -109.595,
+        -66.6361,
+        43.6687
+      ],
+      "target_height": 3.1156,
+      "rotation_z": 1.987101
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -50.1931,
+        -81.2346,
+        22.0279
+      ],
+      "target_height": 2.3242,
+      "rotation_z": -1.886666
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        92.394,
+        33.1317,
+        20.2937
+      ],
+      "target_height": 3.0364,
+      "rotation_z": 2.310691
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        1.4386,
+        -137.8856,
+        35.38
+      ],
+      "target_height": 3.7211,
+      "rotation_z": 2.178836
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        115.6877,
+        57.986,
+        33.642
+      ],
+      "target_height": 2.5401,
+      "rotation_z": 2.46247
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        110.3973,
+        -36.1596,
+        37.2116
+      ],
+      "target_height": 1.0654,
+      "rotation_z": 1.720094
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        122.1508,
+        -3.7884,
+        36.1333
+      ],
+      "target_height": 3.1818,
+      "rotation_z": -1.444018
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        122.7613,
+        -49.2972,
+        43.8052
+      ],
+      "target_height": 3.8816,
+      "rotation_z": 1.695568
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -122.3228,
+        91.2306,
+        47.8457
+      ],
+      "target_height": 3.7689,
+      "rotation_z": -0.546312
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -8.2178,
+        131.1035,
+        27.3428
+      ],
+      "target_height": 2.046,
+      "rotation_z": -1.507307
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        63.7102,
+        -42.4376,
+        23.5768
+      ],
+      "target_height": 1.378,
+      "rotation_z": -1.698789
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -11.6551,
+        96.2483,
+        14.8283
+      ],
+      "target_height": 2.2369,
+      "rotation_z": 0.236741
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        20.0144,
+        136.5737,
+        36.9075
+      ],
+      "target_height": 1.5451,
+      "rotation_z": -1.173959
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -127.7058,
+        -33.0116,
+        53.3964
+      ],
+      "target_height": 3.539,
+      "rotation_z": 2.317994
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -131.1079,
+        32.7129,
+        48.7379
+      ],
+      "target_height": 2.3377,
+      "rotation_z": -3.065887
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        92.7278,
+        -93.5994,
+        40.8161
+      ],
+      "target_height": 3.2887,
+      "rotation_z": -1.528361
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -90.1994,
+        4.9836,
+        33.5788
+      ],
+      "target_height": 1.1369,
+      "rotation_z": 2.659813
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        122.5802,
+        88.2041,
+        45.4847
+      ],
+      "target_height": 1.1205,
+      "rotation_z": 2.226177
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -132.7158,
+        -14.9081,
+        50.9966
+      ],
+      "target_height": 1.3506,
+      "rotation_z": -0.132112
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -86.7343,
+        20.9675,
+        21.2248
+      ],
+      "target_height": 1.2171,
+      "rotation_z": -2.412949
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        124.359,
+        2.8915,
+        37.4789
+      ],
+      "target_height": 3.4498,
+      "rotation_z": -2.036128
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        24.1741,
+        112.868,
+        27.0397
+      ],
+      "target_height": 2.3975,
+      "rotation_z": -2.448434
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -9.6373,
+        128.6406,
+        26.1558
+      ],
+      "target_height": 3.7707,
+      "rotation_z": -1.989958
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -134.6533,
+        -89.2852,
+        57.8871
+      ],
+      "target_height": 2.4259,
+      "rotation_z": 1.518608
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -60.5788,
+        -94.8233,
+        29.5157
+      ],
+      "target_height": 3.1374,
+      "rotation_z": 2.286101
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        103.7636,
+        80.717,
+        36.123
+      ],
+      "target_height": 1.585,
+      "rotation_z": -0.898966
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        63.7146,
+        -6.9013,
+        16.0532
+      ],
+      "target_height": 3.4822,
+      "rotation_z": 0.288622
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        106.5511,
+        15.7832,
+        28.1024
+      ],
+      "target_height": 1.0027,
+      "rotation_z": 1.243652
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -103.6456,
+        -125.8884,
+        54.0329
+      ],
+      "target_height": 1.5564,
+      "rotation_z": 0.666799
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        81.1353,
+        15.3293,
+        18.2495
+      ],
+      "target_height": 3.416,
+      "rotation_z": -0.568228
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        116.7492,
+        -87.3073,
+        60.4955
+      ],
+      "target_height": 1.5093,
+      "rotation_z": 1.060015
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -62.854,
+        -39.4876,
+        19.815
+      ],
+      "target_height": 2.7531,
+      "rotation_z": 1.215541
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        94.5456,
+        76.648,
+        31.564
+      ],
+      "target_height": 3.1833,
+      "rotation_z": 0.765722
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        33.2329,
+        -120.9443,
+        33.3611
+      ],
+      "target_height": 1.6991,
+      "rotation_z": 1.911912
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -123.148,
+        95.5431,
+        51.111
+      ],
+      "target_height": 0.999,
+      "rotation_z": -0.050453
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        106.1706,
+        82.7146,
+        38.2355
+      ],
+      "target_height": 3.7228,
+      "rotation_z": 2.20237
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        75.7023,
+        44.6739,
+        16.4564
+      ],
+      "target_height": 1.1912,
+      "rotation_z": 1.367837
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        89.0438,
+        -65.4939,
+        38.8088
+      ],
+      "target_height": 0.9846,
+      "rotation_z": 2.470768
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -107.8446,
+        -16.7006,
+        42.8736
+      ],
+      "target_height": 3.4879,
+      "rotation_z": -1.523728
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -8.9383,
+        101.3045,
+        12.471
+      ],
+      "target_height": 2.935,
+      "rotation_z": 2.232685
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        73.598,
+        -37.5198,
+        24.8206
+      ],
+      "target_height": 1.9613,
+      "rotation_z": 1.238946
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        91.6088,
+        -77.5498,
+        42.9336
+      ],
+      "target_height": 3.3906,
+      "rotation_z": -0.071831
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        85.7412,
+        118.6152,
+        48.8246
+      ],
+      "target_height": 1.5823,
+      "rotation_z": -2.174899
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -97.1653,
+        -80.0939,
+        36.0298
+      ],
+      "target_height": 1.6275,
+      "rotation_z": -2.716792
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        73.4197,
+        -66.9737,
+        31.3239
+      ],
+      "target_height": 3.3181,
+      "rotation_z": 0.709637
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -98.8814,
+        -87.92,
+        38.9791
+      ],
+      "target_height": 2.5595,
+      "rotation_z": 0.897673
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        118.2582,
+        40.5845,
+        31.8828
+      ],
+      "target_height": 2.6435,
+      "rotation_z": 1.45118
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -111.3597,
+        -37.517,
+        36.7116
+      ],
+      "target_height": 2.9382,
+      "rotation_z": -0.725918
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        96.7631,
+        -37.0244,
+        31.7148
+      ],
+      "target_height": 2.6659,
+      "rotation_z": 0.936203
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -131.8177,
+        94.675,
+        57.5496
+      ],
+      "target_height": 3.3105,
+      "rotation_z": 2.455348
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        67.4783,
+        -72.6741,
+        28.3099
+      ],
+      "target_height": 2.2072,
+      "rotation_z": 2.515753
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -80.2026,
+        130.9559,
+        53.7424
+      ],
+      "target_height": 2.5425,
+      "rotation_z": 2.166082
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -92.6806,
+        109.9239,
+        45.9926
+      ],
+      "target_height": 2.0737,
+      "rotation_z": -1.142052
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        42.7902,
+        98.9459,
+        24.356
+      ],
+      "target_height": 3.8275,
+      "rotation_z": 1.134132
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -16.1193,
+        50.6451,
+        9.6857
+      ],
+      "target_height": 3.8062,
+      "rotation_z": 1.198485
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        63.5412,
+        42.9838,
+        13.5087
+      ],
+      "target_height": 2.7495,
+      "rotation_z": 1.223831
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        27.6902,
+        72.1691,
+        -0.081
+      ],
+      "target_height": 3.2877,
+      "rotation_z": 0.163949
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        113.3781,
+        65.505,
+        34.4641
+      ],
+      "target_height": 2.5242,
+      "rotation_z": -3.133811
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        83.7334,
+        61.8043,
+        22.6469
+      ],
+      "target_height": 3.3191,
+      "rotation_z": 2.972054
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -11.1458,
+        101.5125,
+        13.7236
+      ],
+      "target_height": 3.5025,
+      "rotation_z": -2.145345
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        31.642,
+        119.5937,
+        31.1508
+      ],
+      "target_height": 2.3919,
+      "rotation_z": 0.862727
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        103.4685,
+        53.6483,
+        26.9161
+      ],
+      "target_height": 3.2082,
+      "rotation_z": 0.132924
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        111.8053,
+        -59.3055,
+        41.965
+      ],
+      "target_height": 3.6996,
+      "rotation_z": 0.841685
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -100.2534,
+        -58.9301,
+        34.1132
+      ],
+      "target_height": 2.6135,
+      "rotation_z": 0.167866
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        78.7911,
+        -81.6847,
+        31.7755
+      ],
+      "target_height": 3.5321,
+      "rotation_z": -0.259522
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -97.7399,
+        134.7555,
+        67.0486
+      ],
+      "target_height": 3.129,
+      "rotation_z": -0.381248
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -123.4008,
+        72.2733,
+        41.4929
+      ],
+      "target_height": 2.1372,
+      "rotation_z": 0.439361
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        97.9188,
+        -67.5058,
+        43.9119
+      ],
+      "target_height": 2.9188,
+      "rotation_z": 1.601224
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -113.1177,
+        22.3662,
+        38.6288
+      ],
+      "target_height": 3.6463,
+      "rotation_z": -0.581494
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -105.8025,
+        -25.0509,
+        36.6763
+      ],
+      "target_height": 2.9765,
+      "rotation_z": 0.588209
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -86.0422,
+        47.7358,
+        21.9463
+      ],
+      "target_height": 2.6092,
+      "rotation_z": -1.712898
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -13.0659,
+        -47.3663,
+        3.57
+      ],
+      "target_height": 2.1496,
+      "rotation_z": -1.759731
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -12.4443,
+        -72.1153,
+        6.6732
+      ],
+      "target_height": 3.6026,
+      "rotation_z": -2.394608
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -42.7727,
+        103.9924,
+        28.6271
+      ],
+      "target_height": 3.8929,
+      "rotation_z": 3.084402
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -0.829,
+        101.4373,
+        10.473
+      ],
+      "target_height": 1.7784,
+      "rotation_z": 1.93227
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        140.442,
+        -70.8547,
+        58.0796
+      ],
+      "target_height": 2.2819,
+      "rotation_z": 0.753359
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -80.6258,
+        30.5366,
+        16.1907
+      ],
+      "target_height": 1.9834,
+      "rotation_z": -0.028512
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        94.3594,
+        -79.6716,
+        45.2815
+      ],
+      "target_height": 1.6122,
+      "rotation_z": -0.671296
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -120.52,
+        37.4703,
+        37.8514
+      ],
+      "target_height": 3.0101,
+      "rotation_z": 2.592801
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -124.1435,
+        4.5599,
+        39.008
+      ],
+      "target_height": 2.4642,
+      "rotation_z": -2.49583
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -96.4005,
+        -84.0301,
+        36.8035
+      ],
+      "target_height": 1.7569,
+      "rotation_z": -2.112536
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -104.9385,
+        43.8214,
+        28.0126
+      ],
+      "target_height": 3.0311,
+      "rotation_z": 1.898357
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        -65.3736,
+        -46.5547,
+        21.5724
+      ],
+      "target_height": 3.6025,
+      "rotation_z": 1.193682
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "rock_moss_set_01",
+      "position": [
+        -46.6532,
+        79.1008,
+        17.9267
+      ],
+      "target_height": 3.2173,
+      "rotation_z": -2.063492
+    },
+    {
+      "category": "rocks",
+      "asset_slug": "boulder_01",
+      "position": [
+        62.5407,
+        -39.0355,
+        22.4601
+      ],
+      "target_height": 2.9627,
+      "rotation_z": -0.254274
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -68.174,
+        -72.179,
+        25.259
+      ],
+      "target_height": 4.67,
+      "rotation_z": 1.0887
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        66.853,
+        87.344,
+        36.423
+      ],
+      "target_height": 9.59,
+      "rotation_z": 3.0684
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -17.02,
+        63.667,
+        11.594
+      ],
+      "target_height": 14.21,
+      "rotation_z": 6.1772
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        48.092,
+        33.727,
+        6.086
+      ],
+      "target_height": 8.23,
+      "rotation_z": 2.7318
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        32.862,
+        38.796,
+        -1.929
+      ],
+      "target_height": 9.76,
+      "rotation_z": 5.5795
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        108.454,
+        -17.339,
+        36.532
+      ],
+      "target_height": 14.83,
+      "rotation_z": 5.502
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -61.802,
+        58.544,
+        15.603
+      ],
+      "target_height": 14.35,
+      "rotation_z": 4.6866
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        91.565,
+        -40.04,
+        29.188
+      ],
+      "target_height": 14.96,
+      "rotation_z": 4.5843
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -52.613,
+        -34.956,
+        14.936
+      ],
+      "target_height": 12.16,
+      "rotation_z": 1.5507
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -49.001,
+        127.401,
+        43.509
+      ],
+      "target_height": 8.03,
+      "rotation_z": 1.7795
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -28.42,
+        102.676,
+        23.035
+      ],
+      "target_height": 8.56,
+      "rotation_z": 2.0697
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        81.361,
+        25.962,
+        16.325
+      ],
+      "target_height": 13.3,
+      "rotation_z": 6.1526
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -65.127,
+        -70.408,
+        23.462
+      ],
+      "target_height": 8.58,
+      "rotation_z": 3.7688
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        79.557,
+        -46.368,
+        27.068
+      ],
+      "target_height": 10.7,
+      "rotation_z": 3.5761
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -60.592,
+        98.053,
+        30.277
+      ],
+      "target_height": 14.73,
+      "rotation_z": 5.3809
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        55.414,
+        56.698,
+        14.897
+      ],
+      "target_height": 9.59,
+      "rotation_z": 0.9054
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -58.755,
+        -52.278,
+        19.339
+      ],
+      "target_height": 9.47,
+      "rotation_z": 2.9468
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        72.273,
+        -38.144,
+        24.658
+      ],
+      "target_height": 7.73,
+      "rotation_z": 5.521
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        114.247,
+        -5.157,
+        35.543
+      ],
+      "target_height": 6.97,
+      "rotation_z": 4.7098
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -99.618,
+        63.47,
+        31.029
+      ],
+      "target_height": 7.64,
+      "rotation_z": 4.1948
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -43.923,
+        -63.799,
+        14.849
+      ],
+      "target_height": 8.56,
+      "rotation_z": 3.6381
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        105.322,
+        75.368,
+        33.437
+      ],
+      "target_height": 13.02,
+      "rotation_z": 2.0817
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        17.611,
+        37.847,
+        -9.262
+      ],
+      "target_height": 9.04,
+      "rotation_z": 1.2534
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -29.671,
+        50.938,
+        9.637
+      ],
+      "target_height": 13.43,
+      "rotation_z": 1.4036
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -47.174,
+        99.094,
+        27.362
+      ],
+      "target_height": 14.78,
+      "rotation_z": 0.8654
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        26.49,
+        36.79,
+        -3.078
+      ],
+      "target_height": 9.77,
+      "rotation_z": 4.1235
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -8.058,
+        118.401,
+        19.265
+      ],
+      "target_height": 11.6,
+      "rotation_z": 0.4297
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -89.285,
+        -5.104,
+        34.98
+      ],
+      "target_height": 5.43,
+      "rotation_z": 2.7932
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -93.155,
+        57.17,
+        28.113
+      ],
+      "target_height": 11.34,
+      "rotation_z": 5.0889
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        2.983,
+        105.841,
+        13.93
+      ],
+      "target_height": 10.34,
+      "rotation_z": 4.3315
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        98.628,
+        32.745,
+        23.14
+      ],
+      "target_height": 9.11,
+      "rotation_z": 4.109
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        46.751,
+        109.651,
+        32.202
+      ],
+      "target_height": 10.1,
+      "rotation_z": 4.347
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        22.863,
+        51.546,
+        -5.318
+      ],
+      "target_height": 9.0,
+      "rotation_z": 0.9784
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -84.973,
+        71.772,
+        26.621
+      ],
+      "target_height": 7.76,
+      "rotation_z": 2.3301
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        83.76,
+        -37.179,
+        27.937
+      ],
+      "target_height": 13.18,
+      "rotation_z": 5.5151
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        86.913,
+        -69.297,
+        39.766
+      ],
+      "target_height": 10.45,
+      "rotation_z": 5.3887
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        70.993,
+        -15.361,
+        18.231
+      ],
+      "target_height": 7.18,
+      "rotation_z": 4.751
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -90.542,
+        58.562,
+        27.588
+      ],
+      "target_height": 10.67,
+      "rotation_z": 0.437
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -21.758,
+        71.836,
+        13.452
+      ],
+      "target_height": 10.01,
+      "rotation_z": 4.9728
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        120.73,
+        14.702,
+        34.959
+      ],
+      "target_height": 6.69,
+      "rotation_z": 3.0657
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -54.681,
+        62.566,
+        15.095
+      ],
+      "target_height": 7.15,
+      "rotation_z": 2.7389
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -102.023,
+        -1.857,
+        37.356
+      ],
+      "target_height": 11.3,
+      "rotation_z": 4.9701
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -17.465,
+        74.869,
+        14.062
+      ],
+      "target_height": 8.97,
+      "rotation_z": 0.5072
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -68.728,
+        81.511,
+        23.906
+      ],
+      "target_height": 11.55,
+      "rotation_z": 1.0021
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -56.297,
+        -37.147,
+        16.477
+      ],
+      "target_height": 8.24,
+      "rotation_z": 0.2134
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        71.818,
+        -59.649,
+        29.653
+      ],
+      "target_height": 4.71,
+      "rotation_z": 1.2006
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        5.883,
+        74.628,
+        2.829
+      ],
+      "target_height": 14.63,
+      "rotation_z": 1.328
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        32.822,
+        105.868,
+        25.443
+      ],
+      "target_height": 9.91,
+      "rotation_z": 3.5915
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -84.307,
+        38.278,
+        18.167
+      ],
+      "target_height": 13.92,
+      "rotation_z": 1.5356
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -83.053,
+        -2.244,
+        33.333
+      ],
+      "target_height": 12.25,
+      "rotation_z": 4.171
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        14.754,
+        85.601,
+        4.446
+      ],
+      "target_height": 9.55,
+      "rotation_z": 0.8684
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -49.965,
+        94.67,
+        25.555
+      ],
+      "target_height": 10.58,
+      "rotation_z": 1.6615
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        17.983,
+        100.928,
+        18.1
+      ],
+      "target_height": 11.39,
+      "rotation_z": 5.9839
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        87.193,
+        -30.886,
+        27.3
+      ],
+      "target_height": 9.33,
+      "rotation_z": 2.9537
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -92.212,
+        55.672,
+        26.967
+      ],
+      "target_height": 5.35,
+      "rotation_z": 1.8069
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -76.824,
+        21.07,
+        18.088
+      ],
+      "target_height": 6.54,
+      "rotation_z": 1.2829
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        49.369,
+        50.284,
+        8.468
+      ],
+      "target_height": 10.14,
+      "rotation_z": 0.001
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -5.325,
+        113.922,
+        16.727
+      ],
+      "target_height": 13.67,
+      "rotation_z": 5.0711
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -109.66,
+        48.734,
+        30.559
+      ],
+      "target_height": 13.6,
+      "rotation_z": 5.4249
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        25.592,
+        108.931,
+        25.219
+      ],
+      "target_height": 12.21,
+      "rotation_z": 2.2795
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        63.43,
+        80.875,
+        34.285
+      ],
+      "target_height": 7.21,
+      "rotation_z": 0.046
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        55.201,
+        -69.605,
+        24.839
+      ],
+      "target_height": 11.28,
+      "rotation_z": 0.0873
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        37.574,
+        85.288,
+        16.578
+      ],
+      "target_height": 11.94,
+      "rotation_z": 2.9597
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        10.254,
+        110.879,
+        21.975
+      ],
+      "target_height": 5.14,
+      "rotation_z": 1.1984
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -104.803,
+        -39.316,
+        33.692
+      ],
+      "target_height": 13.08,
+      "rotation_z": 5.238
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        35.418,
+        81.787,
+        13.919
+      ],
+      "target_height": 11.9,
+      "rotation_z": 1.6027
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -33.864,
+        -40.604,
+        8.104
+      ],
+      "target_height": 12.29,
+      "rotation_z": 4.9764
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -79.917,
+        61.591,
+        23.401
+      ],
+      "target_height": 6.89,
+      "rotation_z": 5.1611
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -20.665,
+        98.487,
+        19.326
+      ],
+      "target_height": 9.85,
+      "rotation_z": 4.2238
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -82.483,
+        35.865,
+        17.162
+      ],
+      "target_height": 10.44,
+      "rotation_z": 3.1652
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        50.59,
+        106.348,
+        30.967
+      ],
+      "target_height": 12.29,
+      "rotation_z": 2.5713
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        47.276,
+        101.886,
+        27.365
+      ],
+      "target_height": 9.51,
+      "rotation_z": 5.8936
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -56.046,
+        -77.315,
+        22.252
+      ],
+      "target_height": 5.36,
+      "rotation_z": 1.6402
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -38.877,
+        -32.574,
+        8.591
+      ],
+      "target_height": 8.97,
+      "rotation_z": 0.7236
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -25.391,
+        53.482,
+        10.507
+      ],
+      "target_height": 9.3,
+      "rotation_z": 3.961
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        64.526,
+        52.971,
+        14.806
+      ],
+      "target_height": 11.8,
+      "rotation_z": 5.2268
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        24.051,
+        116.672,
+        28.879
+      ],
+      "target_height": 13.62,
+      "rotation_z": 3.2237
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -95.876,
+        66.158,
+        30.896
+      ],
+      "target_height": 10.55,
+      "rotation_z": 4.0535
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -65.794,
+        71.468,
+        20.373
+      ],
+      "target_height": 8.38,
+      "rotation_z": 3.2717
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -27.357,
+        92.525,
+        20.116
+      ],
+      "target_height": 12.56,
+      "rotation_z": 5.8968
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -70.536,
+        12.225,
+        22.286
+      ],
+      "target_height": 6.68,
+      "rotation_z": 4.0155
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -118.131,
+        18.564,
+        41.732
+      ],
+      "target_height": 4.79,
+      "rotation_z": 0.6181
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -69.192,
+        -61.559,
+        24.406
+      ],
+      "target_height": 11.34,
+      "rotation_z": 3.1686
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        111.837,
+        36.223,
+        28.699
+      ],
+      "target_height": 13.58,
+      "rotation_z": 4.1427
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        64.408,
+        93.274,
+        32.846
+      ],
+      "target_height": 9.87,
+      "rotation_z": 5.4127
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        53.753,
+        113.023,
+        38.108
+      ],
+      "target_height": 12.29,
+      "rotation_z": 3.4899
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -37.542,
+        80.071,
+        16.939
+      ],
+      "target_height": 11.82,
+      "rotation_z": 2.421
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -39.989,
+        59.874,
+        12.783
+      ],
+      "target_height": 8.05,
+      "rotation_z": 0.7148
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        75.038,
+        104.878,
+        40.248
+      ],
+      "target_height": 12.36,
+      "rotation_z": 2.7877
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        35.952,
+        112.001,
+        29.12
+      ],
+      "target_height": 9.3,
+      "rotation_z": 5.0055
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        84.513,
+        3.639,
+        22.392
+      ],
+      "target_height": 4.54,
+      "rotation_z": 1.1257
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        95.183,
+        -13.006,
+        28.248
+      ],
+      "target_height": 11.77,
+      "rotation_z": 5.992
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -100.026,
+        -46.53,
+        32.735
+      ],
+      "target_height": 14.04,
+      "rotation_z": 5.521
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        65.632,
+        108.379,
+        38.89
+      ],
+      "target_height": 11.35,
+      "rotation_z": 5.5872
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        46.289,
+        59.878,
+        13.985
+      ],
+      "target_height": 13.43,
+      "rotation_z": 2.9332
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        47.945,
+        -32.004,
+        15.669
+      ],
+      "target_height": 14.39,
+      "rotation_z": 4.652
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -72.376,
+        61.389,
+        21.516
+      ],
+      "target_height": 13.98,
+      "rotation_z": 5.4672
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        108.573,
+        -38.931,
+        37.262
+      ],
+      "target_height": 9.74,
+      "rotation_z": 6.2456
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -63.9,
+        -14.61,
+        22.558
+      ],
+      "target_height": 9.88,
+      "rotation_z": 4.0003
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -55.917,
+        53.219,
+        12.431
+      ],
+      "target_height": 4.27,
+      "rotation_z": 4.5295
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        81.584,
+        -22.775,
+        22.857
+      ],
+      "target_height": 10.39,
+      "rotation_z": 1.3916
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -50.774,
+        24.84,
+        12.943
+      ],
+      "target_height": 7.11,
+      "rotation_z": 1.1185
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        85.988,
+        -50.11,
+        29.88
+      ],
+      "target_height": 8.84,
+      "rotation_z": 2.15
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -34.89,
+        83.736,
+        17.971
+      ],
+      "target_height": 10.18,
+      "rotation_z": 6.1625
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -35.066,
+        82.208,
+        17.413
+      ],
+      "target_height": 10.94,
+      "rotation_z": 3.9302
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -80.076,
+        0.239,
+        32.143
+      ],
+      "target_height": 6.78,
+      "rotation_z": 6.1537
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -60.445,
+        -69.146,
+        21.842
+      ],
+      "target_height": 12.14,
+      "rotation_z": 1.7545
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -69.877,
+        45.928,
+        17.199
+      ],
+      "target_height": 13.54,
+      "rotation_z": 0.0521
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        77.674,
+        48.899,
+        17.602
+      ],
+      "target_height": 6.51,
+      "rotation_z": 5.5106
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        1.435,
+        77.619,
+        6.647
+      ],
+      "target_height": 13.54,
+      "rotation_z": 1.3371
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -77.55,
+        -46.38,
+        25.81
+      ],
+      "target_height": 9.04,
+      "rotation_z": 4.8516
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        47.278,
+        52.912,
+        9.221
+      ],
+      "target_height": 12.77,
+      "rotation_z": 5.707
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -99.295,
+        52.113,
+        27.848
+      ],
+      "target_height": 13.09,
+      "rotation_z": 2.0926
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        37.262,
+        85.138,
+        16.351
+      ],
+      "target_height": 14.46,
+      "rotation_z": 2.079
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        66.476,
+        64.48,
+        21.532
+      ],
+      "target_height": 7.93,
+      "rotation_z": 0.1507
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        59.125,
+        99.018,
+        29.937
+      ],
+      "target_height": 9.57,
+      "rotation_z": 1.0178
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -80.076,
+        70.107,
+        23.755
+      ],
+      "target_height": 10.11,
+      "rotation_z": 5.3165
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -62.716,
+        -29.669,
+        20.158
+      ],
+      "target_height": 4.28,
+      "rotation_z": 4.7239
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        51.598,
+        69.803,
+        24.203
+      ],
+      "target_height": 14.02,
+      "rotation_z": 1.9909
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -6.734,
+        69.626,
+        9.864
+      ],
+      "target_height": 13.3,
+      "rotation_z": 2.8576
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        32.586,
+        71.978,
+        5.2
+      ],
+      "target_height": 8.66,
+      "rotation_z": 5.7797
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -105.419,
+        -21.564,
+        38.491
+      ],
+      "target_height": 7.49,
+      "rotation_z": 2.5762
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -91.874,
+        63.626,
+        29.472
+      ],
+      "target_height": 7.85,
+      "rotation_z": 1.7053
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        83.929,
+        -56.028,
+        31.425
+      ],
+      "target_height": 14.11,
+      "rotation_z": 1.8394
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        77.165,
+        -45.379,
+        26.447
+      ],
+      "target_height": 13.95,
+      "rotation_z": 1.3246
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -46.806,
+        91.471,
+        23.198
+      ],
+      "target_height": 9.62,
+      "rotation_z": 4.0843
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -39.757,
+        106.778,
+        28.962
+      ],
+      "target_height": 4.74,
+      "rotation_z": 2.5182
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -44.028,
+        -35.812,
+        9.734
+      ],
+      "target_height": 9.0,
+      "rotation_z": 5.7583
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        65.911,
+        24.073,
+        13.067
+      ],
+      "target_height": 8.2,
+      "rotation_z": 6.0653
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        42.32,
+        -78.528,
+        22.554
+      ],
+      "target_height": 13.6,
+      "rotation_z": 5.6976
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -69.343,
+        -39.738,
+        22.299
+      ],
+      "target_height": 11.3,
+      "rotation_z": 5.8659
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -51.584,
+        99.646,
+        28.633
+      ],
+      "target_height": 10.95,
+      "rotation_z": 1.8296
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -98.607,
+        50.439,
+        27.021
+      ],
+      "target_height": 13.09,
+      "rotation_z": 1.8556
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -80.365,
+        -26.786,
+        24.467
+      ],
+      "target_height": 10.18,
+      "rotation_z": 4.5532
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -17.77,
+        81.828,
+        15.942
+      ],
+      "target_height": 9.76,
+      "rotation_z": 5.2108
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        93.277,
+        -22.05,
+        29.687
+      ],
+      "target_height": 7.4,
+      "rotation_z": 0.6071
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -20.193,
+        103.144,
+        19.238
+      ],
+      "target_height": 13.2,
+      "rotation_z": 3.9585
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        12.807,
+        109.247,
+        21.935
+      ],
+      "target_height": 7.88,
+      "rotation_z": 1.66
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        1.024,
+        88.525,
+        7.188
+      ],
+      "target_height": 14.98,
+      "rotation_z": 2.6065
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        70.777,
+        -22.376,
+        19.656
+      ],
+      "target_height": 7.08,
+      "rotation_z": 0.7885
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -85.777,
+        61.525,
+        25.78
+      ],
+      "target_height": 10.62,
+      "rotation_z": 0.236
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -76.538,
+        79.439,
+        25.585
+      ],
+      "target_height": 8.06,
+      "rotation_z": 5.6422
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        104.935,
+        -26.297,
+        36.212
+      ],
+      "target_height": 7.46,
+      "rotation_z": 3.9427
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -54.131,
+        -52.302,
+        17.827
+      ],
+      "target_height": 10.56,
+      "rotation_z": 3.826
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        70.262,
+        -31.107,
+        20.772
+      ],
+      "target_height": 4.73,
+      "rotation_z": 2.6637
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        121.447,
+        -35.127,
+        41.821
+      ],
+      "target_height": 7.9,
+      "rotation_z": 4.5105
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        56.31,
+        -38.931,
+        21.056
+      ],
+      "target_height": 10.2,
+      "rotation_z": 6.255
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -83.659,
+        42.377,
+        18.973
+      ],
+      "target_height": 10.11,
+      "rotation_z": 2.5425
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -41.533,
+        -90.979,
+        23.535
+      ],
+      "target_height": 9.55,
+      "rotation_z": 0.7027
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -41.542,
+        90.071,
+        21.849
+      ],
+      "target_height": 6.59,
+      "rotation_z": 2.5805
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -102.123,
+        23.144,
+        30.208
+      ],
+      "target_height": 12.18,
+      "rotation_z": 6.1754
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -49.188,
+        87.624,
+        21.993
+      ],
+      "target_height": 13.46,
+      "rotation_z": 0.1272
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        94.116,
+        -49.198,
+        32.396
+      ],
+      "target_height": 7.27,
+      "rotation_z": 1.0785
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        75.499,
+        -50.646,
+        27.484
+      ],
+      "target_height": 6.41,
+      "rotation_z": 3.8072
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        53.891,
+        46.021,
+        9.634
+      ],
+      "target_height": 7.19,
+      "rotation_z": 3.4101
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -79.501,
+        -63.04,
+        28.094
+      ],
+      "target_height": 6.52,
+      "rotation_z": 3.1161
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -96.012,
+        31.508,
+        23.979
+      ],
+      "target_height": 13.59,
+      "rotation_z": 4.225
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -79.363,
+        75.496,
+        25.173
+      ],
+      "target_height": 7.02,
+      "rotation_z": 3.2877
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -106.823,
+        -53.503,
+        38.257
+      ],
+      "target_height": 7.16,
+      "rotation_z": 6.0878
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -79.757,
+        -57.209,
+        27.567
+      ],
+      "target_height": 8.68,
+      "rotation_z": 6.0512
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -78.266,
+        -90.999,
+        33.392
+      ],
+      "target_height": 12.89,
+      "rotation_z": 3.3865
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        -89.178,
+        -71.717,
+        30.581
+      ],
+      "target_height": 8.07,
+      "rotation_z": 2.9987
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        21.898,
+        78.102,
+        0.998
+      ],
+      "target_height": 5.61,
+      "rotation_z": 0.9376
+    },
+    {
+      "category": "snow_spruce",
+      "position": [
+        76.931,
+        54.739,
+        18.427
+      ],
+      "target_height": 10.08,
+      "rotation_z": 0.1516
+    }
+  ],
+  "note": "Full fidelity uses source glTF files in assets/awakening-valley; web renderer should use GPU instancing."
+}

@@ -13,7 +13,7 @@ export const V2_VERSION = 'citygen-2.0.0';
 export const LEGACY_VERSION = 'citygen-1.0.0';
 
 export type Weather = 'clear' | 'haze' | 'rain';
-export type Quality = 'balanced' | 'cinematic';
+export type Quality = 'balanced' | 'cinematic' | 'ultra';
 export type CameraMode = 'orbit' | 'street' | 'cinema';
 export type Building = {
   id: number; x: number; z: number; height: number; width: number; depth: number;

@@ -1,11 +1,9 @@
-EON V7 - VALIDACION LOCAL DE FUENTES
-
-- Node.js unit/integration checks: 32/32 PASS.
-- TypeScript/TSX syntax transpile: 26 files, 0 syntax errors.
-- GLB: 5 vehicle assets inspected with trimesh and glTF JSON checks.
-- GLB: existing 6 tree assets and 6 pedestrian assets preserved and tested.
-- Next.js full build: NOT RUN (npm dependencies unavailable in the environment).
-- Full TypeScript typecheck: NOT RUN (npm dependencies unavailable).
-- WebGL browser rendering: NOT VERIFIED. User should test on their PC.
-- Neon live database: NOT accessed or modified.
-- No third-party downloadable vehicle models were integrated.
+GENESIS V1 / CHECKS IN PREPARATION ENVIRONMENT
+===========================================
+- Original EON V7 tests plus 3 GENESIS tests: 35/35 PASS (with a temporary symlink to globally installed TypeScript, removed afterward).
+- GENESIS tests cover scene integration, UI awakening persistence and offline OptiX helper presence.
+- TypeScript transpileModule syntax pass: all 28 src TS/TSX files had no syntax diagnostics.
+- Blender Python source syntax: py_compile PASS. NO actual Blender/OptiX render was performed.
+- npm ci full dependency install: FAILED in this sandbox with npm error "Exit handler never called".
+- Therefore: full TypeScript typecheck, Next.js production build and visual WebGL runtime validation were NOT completed here.
+- Exact performance on RTX 3090 is unknown and must be measured locally.

@@ -73,3 +73,32 @@ button,input{font:inherit}button{cursor:pointer}button:disabled{cursor:not-allow
 .street-mode .top-left-ambient{opacity:0}
 .metrics-panel{background:rgba(12,21,25,.78)}
 @media(max-width:800px){.top-left-ambient h1{font-size:48px}}
+
+/* GENESIS V1 — The Awakening. Designed to coexist with the EON V7 interface. */
+.brand-word{font-size:22px;letter-spacing:-.065em}
+.brand-tag{letter-spacing:.1em}
+.top-left-ambient h1{font-size:clamp(43px,4.5vw,67px);letter-spacing:-.095em}
+.boot-logo{font-size:clamp(46px,6vw,92px)}
+.genesis-command{position:absolute;z-index:7;left:27px;top:280px;width:278px;padding:15px 16px;background:rgba(8,23,26,.85);border-color:rgba(91,228,200,.26);box-shadow:0 16px 58px rgba(0,10,13,.26)}
+.genesis-command-title{display:flex;align-items:center;gap:8px;font-size:10px;font-weight:850;letter-spacing:.15em;color:#c7eee5}
+.genesis-command-title svg{color:#75e6c8}
+.genesis-command-title span:nth-child(2){flex:1}
+.genesis-live,.genesis-dormant{font-size:8px;letter-spacing:.05em;padding:4px 6px;border:1px solid rgba(115,235,192,.38);color:#9ff6cc;border-radius:2px}
+.genesis-dormant{color:#93aaa7;border-color:rgba(153,185,180,.2)}
+.genesis-command p{font-size:11px;line-height:1.5;color:#bdcfcc;margin:11px 0 14px}
+.genesis-command-actions{display:flex;gap:7px}
+.genesis-awaken-button{display:flex;align-items:center;justify-content:center;gap:9px;flex:1;min-height:38px;background:linear-gradient(110deg,#b9f8e2,#7ee7d6);color:#092729;border:0;font-size:10px;letter-spacing:.1em;font-weight:850;cursor:pointer}
+.genesis-awaken-button:hover{filter:brightness(1.13)}
+.genesis-focus-button{width:38px;display:grid;place-items:center;background:rgba(119,230,217,.09);border:1px solid rgba(139,238,218,.35);color:#c0f5eb;cursor:pointer}
+.genesis-quality-row{display:grid;grid-template-columns:repeat(3,1fr);gap:5px;margin:8px 0 13px}
+.genesis-quality-row button{background:rgba(255,255,255,.035);color:#c4d1ce;border:1px solid rgba(218,234,230,.13);padding:11px 0;letter-spacing:.06em;font-size:10px;font-weight:800;cursor:pointer}
+.genesis-quality-row button.active{background:rgba(127,241,208,.16);border-color:#83f2d6;color:#aaf6e1}
+.genesis-render-note{line-height:1.55;padding:4px 0 0}
+.genesis-telemetry{margin-top:13px;padding:10px 0;border-top:1px solid var(--line);display:flex;align-items:center;gap:10px;color:#a4dccc;font-size:10px;letter-spacing:.08em}
+.genesis-telemetry span:first-child{display:flex;align-items:center;gap:7px;flex:1}
+.genesis-telemetry strong{font-size:19px;font-variant-numeric:tabular-nums;color:#e4fff8}
+.genesis-telemetry span:last-child{font-size:9px;color:#9cb1aa}
+@media(max-width:1400px){.genesis-command{left:16px;top:262px;width:250px}}
+@media(max-height:770px) and (min-width:801px){.genesis-command{top:222px}.genesis-command p{display:none}.genesis-command-actions{margin-top:12px}}
+@media(max-width:800px){.brand-word{font-size:19px}.top-left-ambient h1{font-size:48px}.genesis-command{left:12px;top:220px;width:min(310px,calc(100% - 24px));padding:10px 12px}.genesis-command p{display:none}.genesis-command-actions{margin-top:9px}.genesis-command-title{font-size:9px}.genesis-awaken-button{min-height:33px}.metrics-panel .genesis-telemetry{margin-top:0;padding:3px 0;justify-content:center}.metrics-panel .genesis-telemetry span:last-child{display:none}}
+@media(max-width:430px){.brand-word{font-size:18px}.top-left-ambient h1{font-size:42px}.genesis-command{top:195px}}

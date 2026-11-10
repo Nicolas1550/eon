@@ -68,6 +68,9 @@ export default function EonApp() {
   const [toast, setToast] = useState('');
   const [controlsOpen, setControlsOpen] = useState(false);
   const [activeCityId, setActiveCityId] = useState<string | null>(null);
+  const [awakenedKey, setAwakenedKey] = useState<string | null>(null);
+  const [coreFocus, setCoreFocus] = useState(0);
+  const [fps, setFps] = useState<number | null>(null);
 
   const city = useMemo(() => {
     if (generatorVersion === LEGACY_VERSION) return generateCityV1(seed, grid);
@@ -77,6 +80,24 @@ export default function EonApp() {
     if (generatorVersion === PREVIOUS_VERSION) return generateCityV5(seed, grid);
     return generateCity(seed, grid);
   }, [seed, grid, generatorVersion]);
+  // Awakening is local to this browser and seed. EON's Neon database is untouched.
+  const awakeningKey = `genesis.awakening.${generatorVersion}.${seed}.${grid}`;
+  const awakened = awakenedKey === awakeningKey;
+  useEffect(() => {
+    try { setAwakenedKey(window.localStorage.getItem(awakeningKey) === '1' ? awakeningKey : null); }
+    catch { setAwakenedKey(null); }
+  }, [awakeningKey]);
+  const toggleAwakening = () => {
+    const next = !awakened;
+    setAwakenedKey(next ? awakeningKey : null);
+    try {
+      if (next) window.localStorage.setItem(awakeningKey, '1');
+      else window.localStorage.removeItem(awakeningKey);
+    } catch { /* Private browsing can prevent local storage. The in-memory effect still works. */ }
+    if (next) setCoreFocus((count) => count + 1);
+    setToast(next ? 'GENESIS CORE ACTIVADO · El ecosistema está despertando.' : 'Ecosistema restaurado a su estado original.');
+  };
+  const onFps = useCallback((sample: number) => setFps(sample), []);
   const timeLabel = `${String(Math.floor(time)).padStart(2, '0')}:${String(Math.round((time % 1) * 60) % 60).padStart(2, '0')}`;
   const period = time >= 7 && time < 17 ? 'DAYLIGHT' : time >= 17 && time < 20 ? 'GOLDEN HOUR' : 'NIGHTFALL';
 
@@ -199,7 +220,7 @@ export default function EonApp() {
       setUser(result.user);
       setAuthPassword('');
       setModal(null);
-      setToast(`Bienvenido a EON, ${result.user.display_name}.`);
+      setToast(`Bienvenido a GENESIS, ${result.user.display_name}.`);
     } catch (error) { setToast(error instanceof Error ? error.message : 'Error de autenticación.'); }
     finally { setAuthBusy(false); }
   };
@@ -216,15 +237,15 @@ export default function EonApp() {
 
   return <div className={`eon-app ${photoMode ? 'photo-mode' : ''} ${focusMode ? 'focus-mode' : ''} ${cameraMode === 'street' ? 'street-mode' : ''}`} >
     <div className="world-stage" aria-label="Ciudad 3D interactiva">
-      <CityScene city={city} seed={seed} time={time} weather={weather} quality={quality} traffic={traffic} cameraMode={cameraMode} resetCamera={resetCamera} selected={selected} onSelect={setSelected} onReady={onReady}/>
+      <CityScene city={city} seed={seed} time={time} weather={weather} quality={quality} traffic={traffic} cameraMode={cameraMode} resetCamera={resetCamera} selected={selected} onSelect={setSelected} onReady={onReady} awakened={awakened} coreFocus={coreFocus} onFps={onFps}/>
       <div className="stage-vignette" aria-hidden="true"/>
       <div className="stage-grain" aria-hidden="true"/>
-      {!ready && <div className="boot-screen"><div className="boot-logo">EON<span>®</span></div><div className="boot-line"/><p>GENERATING YOUR WORLD</p></div>}
+      {!ready && <div className="boot-screen"><div className="boot-logo">GENESIS<span>®</span></div><div className="boot-line"/><p>GENERATING YOUR WORLD</p></div>}
     </div>
 
     <header className="topbar">
-      <div className="brand" aria-label="EON The Living City"><span className="brand-symbol"><i/><i/><i/></span><span className="brand-word">EON<span className="brand-registered">®</span></span><span className="brand-divider"/><span className="brand-tag">THE LIVING CITY</span></div>
-      <div className="topbar-center"><span className="topbar-index">WORLD ENGINE / URBAN RECONSTRUCTION 07</span><span className="topbar-center-dot"/><span>URBAN ECOSYSTEMS</span></div>
+      <div className="brand" aria-label="GENESIS The Living World"><span className="brand-symbol"><i/><i/><i/></span><span className="brand-word">GENESIS<span className="brand-registered">®</span></span><span className="brand-divider"/><span className="brand-tag">THE LIVING WORLD</span></div>
+      <div className="topbar-center"><span className="topbar-index">WORLD ENGINE / AWAKENING 01</span><span className="topbar-center-dot"/><span>EVOLVING ENVIRONMENTS</span></div>
       <div className="topbar-actions">
         <span className="live-pill"><span/> SYSTEM ONLINE</span>
         <IconButton onClick={() => setModal('help')} title="Ayuda y controles"><HelpCircle size={17}/></IconButton>
@@ -235,7 +256,16 @@ export default function EonApp() {
       </div>
     </header>
 
-    <div className="top-left-ambient"><span className="ambient-index">07 / URBAN RECONSTRUCTION</span><div className="hero-kicker"><span/> A CITY THAT BREATHES</div><h1>EON<span className="hero-dot">.</span></h1><p>Not just a city.<br/><em>A living system.</em></p></div>
+    <div className="top-left-ambient"><span className="ambient-index">01 / THE AWAKENING</span><div className="hero-kicker"><span/> A WORLD THAT AWAKENS</div><h1>GENESIS<span className="hero-dot">.</span></h1><p>One world.<br/><em>Infinite possibilities.</em></p></div>
+
+    <div className="genesis-command glass-panel" aria-live="polite">
+      <div className="genesis-command-title"><Sparkles size={14}/><span>GENESIS CORE</span><span className={awakened ? 'genesis-live' : 'genesis-dormant'}>{awakened ? 'ACTIVE' : 'DORMANT'}</span></div>
+      <p>{awakened ? 'La energía ha despertado la vegetación del entorno.' : 'Activá el núcleo para devolver la vida al mundo.'}</p>
+      <div className="genesis-command-actions">
+        <button className="genesis-awaken-button" onClick={toggleAwakening}>{awakened ? <RotateCcw size={15}/> : <Sparkles size={15}/>} {awakened ? 'REINICIAR' : 'AWAKEN WORLD'}</button>
+        <button className="genesis-focus-button" title="Acercar cámara al núcleo" aria-label="Enfocar núcleo Genesis" onClick={() => { setCameraMode('orbit'); setCoreFocus((v) => v + 1); }}><Compass size={16}/></button>
+      </div>
+    </div>
 
     <aside className="metrics-panel glass-panel">
       <div className="panel-heading"><span>WORLD TELEMETRY</span><Activity size={15}/></div>
@@ -245,6 +275,7 @@ export default function EonApp() {
       <Stat icon={<Globe2 size={16}/>} label="Estimated population" value={formatNumber(city.population)}/>
       <Stat icon={<Gauge size={16}/>} label="Modeled energy" value={formatNumber(city.energy)} unit="MW"/>
       <Stat icon={<Leaf size={16}/>} label="Park coverage" value={String(city.greenSpace)} unit="%"/>
+      <div className="genesis-telemetry"><span><Activity size={13}/> LIVE FPS</span><strong>{fps === null ? '—' : fps}</strong><span>{quality.toUpperCase()}</span></div>
       <div className="metrics-foot"><span>MODEL · {`CITYGEN ${generatorVersion.replace('citygen-', '')}`}</span><span>SEED {seed}</span></div>
     </aside>
 
@@ -266,7 +297,11 @@ export default function EonApp() {
       </div>
       <div className="control-block"><div className="control-label"><span>RENDERING</span><span className="tiny-accent">03</span></div>
         <div className="setting-row"><div><span className="setting-name">Traffic simulation</span><span className="setting-description">Animated road network</span></div><button role="switch" aria-checked={traffic} className={`switch ${traffic ? 'on' : ''}`} onClick={() => setTraffic((x) => !x)}><span/></button></div>
-        <div className="setting-row"><div><span className="setting-name">Cinematic quality</span><span className="setting-description">Realtime shadows · High DPI</span></div><button role="switch" aria-checked={quality === 'cinematic'} className={`switch ${quality === 'cinematic' ? 'on' : ''}`} onClick={() => setQuality((x) => x === 'cinematic' ? 'balanced' : 'cinematic')}><span/></button></div>
+        <span className="field-caption">GRAPHICS PROFILE</span>
+        <div className="genesis-quality-row" role="group" aria-label="Calidad gráfica">
+          {(['balanced', 'cinematic', 'ultra'] as const).map((profile) => <button key={profile} type="button" onClick={() => setQuality(profile)} aria-pressed={quality === profile} className={quality === profile ? 'active' : ''}>{profile === 'balanced' ? 'ECO' : profile === 'cinematic' ? 'HIGH' : 'ULTRA'}</button>)}
+        </div>
+        <div className="setting-description genesis-render-note">ULTRA: 2× DPR y sombras 4K. Más carga gráfica; no implica CUDA ni ray tracing.</div>
       </div>
       <div className="control-footer"><button className="secondary-button" onClick={openVault}><Database size={15}/> CITY VAULT</button><button className="save-button" onClick={() => void saveCity()} disabled={busy}><Save size={15}/>{busy ? 'SAVING...' : 'SAVE CITY'}</button></div>
     </aside>
@@ -291,15 +326,15 @@ export default function EonApp() {
       <div className="timeline-labels"><span>00:00</span><span>06:00</span><span>12:00</span><span>18:00</span><span>24:00</span></div>
     </div>
 
-    <footer className="app-footer"><span>© EON LABORATORIES — URBAN RECONSTRUCTION BUILD 07</span><span>ILLUSTRATIVE URBAN MODEL · NOT A REAL-WORLD FORECAST</span><span>BUILT FOR THE WEB <ArrowUpRight size={13}/></span></footer>
+    <footer className="app-footer"><span>© GENESIS LAB — AWAKENING BUILD 01</span><span>ILLUSTRATIVE URBAN MODEL · NOT A REAL-WORLD FORECAST</span><span>BUILT FOR THE WEB <ArrowUpRight size={13}/></span></footer>
 
     {toast && <div role="status" className="toast"><span className="toast-indicator"/>{toast}<IconButton onClick={() => setToast('')} title="Cerrar aviso"><X size={14}/></IconButton></div>}
 
-    {modal && <div className="modal-backdrop" onMouseDown={(e) => { if (e.target === e.currentTarget) setModal(null); }}><div className="modal glass-panel" role="dialog" aria-modal="true" aria-label={modal === 'auth' ? 'Cuenta EON' : modal === 'vault' ? 'Ciudades guardadas' : 'Ayuda'}>
-      <div className="modal-top"><div className="modal-logo"><span className="brand-symbol small"><i/><i/><i/></span> EON<span> / {modal === 'auth' ? 'ACCOUNT' : modal === 'vault' ? 'CITY VAULT' : 'CONTROLS'}</span></div><IconButton onClick={() => setModal(null)} title="Cerrar"><X size={19}/></IconButton></div>
-      {modal === 'auth' && <><h2>{authMode === 'register' ? 'Create your world.' : 'Welcome back.'}</h2><p className="modal-description">{authMode === 'register' ? 'Guardá ciudades reales en tu propia cuenta de EON, respaldada por Neon PostgreSQL.' : 'Accedé a tus ciudades y continuá explorando.'}</p><form onSubmit={(e) => void submitAuth(e)} className="auth-form">{authMode === 'register' && <label>DISPLAY NAME<input required minLength={2} maxLength={80} value={authName} onChange={(e) => setAuthName(e.target.value)} placeholder="Tu nombre" autoComplete="name"/></label>}<label>EMAIL ADDRESS<input required type="email" maxLength={254} value={authEmail} onChange={(e) => setAuthEmail(e.target.value)} placeholder="nombre@correo.com" autoComplete="email"/></label><label>PASSWORD<input required type="password" minLength={authMode === 'register' ? 10 : 1} maxLength={128} value={authPassword} onChange={(e) => setAuthPassword(e.target.value)} placeholder="••••••••••" autoComplete={authMode === 'register' ? 'new-password' : 'current-password'}/></label><button className="primary-button" disabled={authBusy} type="submit"><LockKeyhole size={16}/>{authBusy ? 'PROCESSING...' : authMode === 'register' ? 'CREATE ACCOUNT' : 'SIGN IN'}<ArrowRight size={16}/></button></form><button className="modal-switch" onClick={() => setAuthMode((x) => x === 'login' ? 'register' : 'login')}>{authMode === 'register' ? 'Already have an account? Sign in' : 'New to EON? Create an account'} <ArrowRight size={14}/></button><div className="security-note"><ShieldCheck size={16}/> Sesiones privadas con cookies HttpOnly. No guardamos contraseñas en texto plano.</div></>}
+    {modal && <div className="modal-backdrop" onMouseDown={(e) => { if (e.target === e.currentTarget) setModal(null); }}><div className="modal glass-panel" role="dialog" aria-modal="true" aria-label={modal === 'auth' ? 'Cuenta GENESIS' : modal === 'vault' ? 'Ciudades guardadas' : 'Ayuda'}>
+      <div className="modal-top"><div className="modal-logo"><span className="brand-symbol small"><i/><i/><i/></span> GENESIS<span> / {modal === 'auth' ? 'ACCOUNT' : modal === 'vault' ? 'CITY VAULT' : 'CONTROLS'}</span></div><IconButton onClick={() => setModal(null)} title="Cerrar"><X size={19}/></IconButton></div>
+      {modal === 'auth' && <><h2>{authMode === 'register' ? 'Create your world.' : 'Welcome back.'}</h2><p className="modal-description">{authMode === 'register' ? 'Guardá ciudades reales en tu propia cuenta de GENESIS, respaldada por Neon PostgreSQL.' : 'Accedé a tus ciudades y continuá explorando.'}</p><form onSubmit={(e) => void submitAuth(e)} className="auth-form">{authMode === 'register' && <label>DISPLAY NAME<input required minLength={2} maxLength={80} value={authName} onChange={(e) => setAuthName(e.target.value)} placeholder="Tu nombre" autoComplete="name"/></label>}<label>EMAIL ADDRESS<input required type="email" maxLength={254} value={authEmail} onChange={(e) => setAuthEmail(e.target.value)} placeholder="nombre@correo.com" autoComplete="email"/></label><label>PASSWORD<input required type="password" minLength={authMode === 'register' ? 10 : 1} maxLength={128} value={authPassword} onChange={(e) => setAuthPassword(e.target.value)} placeholder="••••••••••" autoComplete={authMode === 'register' ? 'new-password' : 'current-password'}/></label><button className="primary-button" disabled={authBusy} type="submit"><LockKeyhole size={16}/>{authBusy ? 'PROCESSING...' : authMode === 'register' ? 'CREATE ACCOUNT' : 'SIGN IN'}<ArrowRight size={16}/></button></form><button className="modal-switch" onClick={() => setAuthMode((x) => x === 'login' ? 'register' : 'login')}>{authMode === 'register' ? 'Already have an account? Sign in' : 'New to GENESIS? Create an account'} <ArrowRight size={14}/></button><div className="security-note"><ShieldCheck size={16}/> Sesiones privadas con cookies HttpOnly. No guardamos contraseñas en texto plano.</div></>}
       {modal === 'vault' && <><h2>Your cities.</h2><p className="modal-description">Tus mundos guardados en Neon PostgreSQL. Elegí uno para reconstruirlo con la misma semilla.</p><div className="vault-list">{cities.length === 0 ? <div className="empty-vault"><Database size={28}/><h3>No saved cities yet.</h3><p>Volvé a la ciudad y presioná «Save City».</p></div> : cities.map((item) => <div key={item.id} className="vault-item"><div className="vault-item-icon"><Building2 size={20}/></div><div className="vault-item-main"><strong>{item.name}</strong><span>SEED {item.seed} · {item.grid_width} × {item.grid_height} · {new Date(item.updated_at).toLocaleDateString('es-AR')}</span></div><IconButton onClick={() => loadCity(item)} title="Cargar ciudad"><ArrowRight size={18}/></IconButton><IconButton onClick={() => void deleteCity(item)} title="Eliminar ciudad"><Trash2 size={17}/></IconButton></div>)}</div><button className="secondary-button wide" onClick={() => void fetchCities()}><RotateCcw size={15}/> REFRESH VAULT</button></>}
-      {modal === 'help' && <><h2>Explore a living world.</h2><p className="modal-description">EON City Alive es un entorno urbano procedural e interactivo. Todas las métricas son ilustrativas.</p><div className="help-list"><div><Compass size={20}/><span><strong>Orbit the city</strong>Arrastrá con el botón izquierdo del mouse.</span></div><div><Eye size={20}/><span><strong>Zoom and pan</strong>Usá la rueda o el botón derecho del mouse.</span></div><div><Building2 size={20}/><span><strong>Inspect structures</strong>Hacé clic en un edificio para ver sus atributos. Modo STREET: WASD para caminar, Shift para acelerar. Modo CINEMA: recorrido automático. R reinicia cámara, F activa el modo inmersivo y P activa fotografía.</span></div><div><Sun size={20}/><span><strong>Change time</strong>Usá la línea de tiempo para cambiar la luz del mundo.</span></div><div><Database size={20}/><span><strong>Persist your world</strong>Registrate y guardá ciudades en Neon PostgreSQL.</span></div></div><button className="primary-button" onClick={() => setModal(null)}>START EXPLORING <ArrowRight size={16}/></button></>}
+      {modal === 'help' && <><h2>Explore a living world.</h2><p className="modal-description">GENESIS Awakening parte del motor urbano EON y añade un núcleo de energía que transforma las zonas verdes. Todas las métricas son ilustrativas.</p><div className="help-list"><div><Compass size={20}/><span><strong>Orbit the city</strong>Arrastrá con el botón izquierdo del mouse.</span></div><div><Eye size={20}/><span><strong>Zoom and pan</strong>Usá la rueda o el botón derecho del mouse.</span></div><div><Building2 size={20}/><span><strong>Inspect structures</strong>Hacé clic en un edificio para ver sus atributos. Modo STREET: WASD para caminar, Shift para acelerar. Modo CINEMA: recorrido automático. R reinicia cámara, F activa el modo inmersivo y P activa fotografía.</span></div><div><Sun size={20}/><span><strong>Change time</strong>Usá la línea de tiempo para cambiar la luz del mundo.</span></div><div><Sparkles size={20}/><span><strong>Awaken the world</strong>Presioná AWAKEN WORLD y acercate al núcleo con el botón de brújula. El despertar se recuerda en este navegador para cada semilla.</span></div><div><Database size={20}/><span><strong>Persist your world</strong>Registrate y guardá ciudades en Neon PostgreSQL.</span></div></div><button className="primary-button" onClick={() => setModal(null)}>START EXPLORING <ArrowRight size={16}/></button></>}
     </div></div>}
   </div>;
 }
